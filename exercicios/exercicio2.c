@@ -16,6 +16,6 @@ int main()
    printf("Parabéns, seu novo salário é de %.2f !!",salajust);
    }else if(salini > 500)
    {
-   printf("Você não tem direito ao reajust salarial!!! ");
+   printf("Você não tem direito ao reajuste salarial!!! ");
    } return 0;
 }
