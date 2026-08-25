@@ -12,7 +12,7 @@ int main()
     //condicional
     if(strcmp(senha, "ASDFG") == 0)
     {
-        printf("Você está validado!!!");
+        printf("VocÃª estÃ¡ validado!!!");
     }else
     {
         printf("Senha incorreta!!");
