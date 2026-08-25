@@ -10,6 +10,14 @@ int main()
  printf("Insira o angulo: ");
  scanf("%d",&angul);
 
+ if(angul == 0)
+ {
+     angul = angul += 360;
+ }
+
+ angul = angul % 360;
+
+
  if(angul >= 0 && angul < 90)
  {
      printf("primeiro quadrante!");
