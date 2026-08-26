@@ -17,11 +17,12 @@ int main(void)
     x2 = (-b - sqrt(delta)) / (2 * a);
     if(delta < 0)
     {
-        printf("a equação não possui raízes reais");
+        printf("a equaÃ§Ã£o nÃ£o possui raÃ­zes reais");
     }if(a == 0)
     {
-        printf("a equação não é de segundo grau!!");
+        printf("a equaÃ§Ã£o nÃ£o Ã© de segundo grau!!");
     }
     //saida
-    printf("O valor de delta é de %d e as raízes são x1: %d e x2: %d",delta,x1,x2);
+    printf("O valor de delta Ã© de %d e as raÃ­zes sÃ£o x1: %d e x2: %d",delta,x1,x2);
+    return 0;
 }
