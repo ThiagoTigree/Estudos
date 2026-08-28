@@ -26,7 +26,7 @@ macaco, morcego, baleia, avestruz, pinguim, pato, águia, tartaruga, crocodilo e 
         }else
         {
             printf("O animal eh um bipede?(S/N): ");
-            scanf("%c",&select);
+            scanf(" %c",&select);
             if(select == 'S')
             {
                 printf("ele eh onivoro?(S/N)");
@@ -82,8 +82,7 @@ macaco, morcego, baleia, avestruz, pinguim, pato, águia, tartaruga, crocodilo e 
                     printf("seu animal eh a aguia!!!");
                 }
             }
-        }
-    }else
+        }else
     {
         printf("seu animal eh um reptil com casca?(S/N): ");
         scanf(" %c",&select);
@@ -92,7 +91,7 @@ macaco, morcego, baleia, avestruz, pinguim, pato, águia, tartaruga, crocodilo e 
             printf("Seu animal eh a tartaruga!!!");
         }else
         {
-            printf("seu animal tem patas?");
+            printf("seu animal tem patas?(S/N): ");
             scanf(" %c",&select);
             if(select == 'S')
             {
@@ -102,6 +101,7 @@ macaco, morcego, baleia, avestruz, pinguim, pato, águia, tartaruga, crocodilo e 
                 printf("seu animal eh uma cobra!!!");
             }
         }
+    }
     }
     return 0;
 }
