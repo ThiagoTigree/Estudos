@@ -22,7 +22,7 @@ int main()
     {
         palavras++;//incremento
 
-        delimitadores = strtok(NULL, " ,.!?\n");/*aqui defino para a funcao strtok o que vao ser os delimitadores, podia ter sido uma funcao criada anteriormente contendo " ,.!?"
+        delimitadores = strtok(NULL, " ,.!?\n");/*aqui defino para a funcao strtok o que vao ser os delimitadores, podia ter sido uma variavel criada anteriormente contendo " ,.!?"
         e no lugar de delimitadores eu colocaria tokens, assim nao precisaria citar novamente como argumento*/
     }
     printf("Total de palavras : %d",palavras);//imprime a quantidade de palavras baseado nas regras do codigo " ,.!?"
