@@ -14,7 +14,14 @@ int main(void)
         printf("Insira o numero par %d : ",i + 1);
         scanf("%d",&numpar[i]);
         soma += numpar[i];// acumula os numeros obtidos para que nos possamos dividir depois
+        if(numpar[i] % 2 != 0)
+        {
+            printf("DIgite um numero par valido!!!\n");
+            continue;
+        }
+
     }
+
 
     ma = (float)soma / vetor;
 
