@@ -12,7 +12,7 @@ int main()
     for(int i = 0;i<=vetor;i++)   //laco q se repeta a quantidade de vezes que vc inserir no ponteiro
     {
          n1 = n1 * razao; //tem que se repetir
-        printf("H elemnto %d = %f\n",i + 2,n1);
+        printf("H elemnto %d = %f\n",vetor,n1);
     }
     return 0;
 }
