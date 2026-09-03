@@ -1,12 +1,15 @@
 #include<stdio.h>
+#include<locale.h>
 int main()
 {
-    double soma = 0.0,rz = 3,base = 1000;
+    double soma = 0.0;
+    double sinal = 1.0;
 
-    for(int i = 1;i<= 50;i++)
+    for(int i = 1,j = 1000;i<=50;i++,j -= 3)
     {
-        soma += (base - (i - 1) * rz) / i ;
+        soma += sinal * ( (double) j  / i);
+        sinal = -sinal;
     }
-    printf("a soma eh %.6lf",soma);
+    printf("A soma eh de %.6lf",soma);
     return 0;
 }
