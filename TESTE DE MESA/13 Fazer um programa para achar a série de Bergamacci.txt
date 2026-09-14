@@ -1,0 +1,15 @@
+13.Fazer um programa para achar a série de Bergamacci dos n primeiros termos: 1 1 1 1 3 5
+9 17 ...
+
+pega os 3 anteriores para gerar o sucessor, pode ser feito do mesmo jeito que eu fiz a 12, repondo os valores após a soma
+ex:
+
+for(int i=0;i<n;1++)
+
+soma  = termo1 + termo2 + termo3
+
+termo 1 = termo 2
+termo 2 = termo 3
+termo 3 = soma
+
+printf(" %d, ",soma);
