@@ -1,0 +1,9 @@
+A)"fatorial" --> fazer um algoritmo que recebe n e faz seu inteiro
+
+fatorial = n1 . n2 ....
+
+onde n1 vira n2 e n2 reduz para virar um n3 hipotetico(nao tem no codigo)
+
+n=5,20,60,120,120
+i=4,3,2,1,0
+fato=0,20,60,120,120
