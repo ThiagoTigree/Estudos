@@ -8,7 +8,7 @@ int main(void)
     printf("Insira o que vai ser avaliado : ");
     scanf("%d",&numero);
 
-    for(i=1;i<=numero / 2;i++)      //cresce ate alcançar o numero, a gente vai precisar disso para achar os divisores
+    for(i=1;i<=numero / 2;i++)   //divide o numero por i, tem q ser ate a metade de do numero, pois caso seja o numero todo sempre sera o dobro do valor
     {
         if(numero % i == 0)
         {
