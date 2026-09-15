@@ -1,0 +1,27 @@
+14.A série de Ricci difere da série de Fibonacci porque os dois primeiros termos podem ser
+definidos pelo usuário. Imprima os n primeiros termos da série de Ricci.
+
+Fibonacci com os dois primeiros termos escolhido pelo usuário
+
+então
+
+int n,num1,num2,soma
+
+recebe n
+
+recebe num1 e 2
+
+for(int i=0;i<n;i++)
+{
+if(i == 0)
+{printf("%d ,",num1);}
+else if(i == 1)
+{printf("%d ,",num2);}
+soma = num1+num2;
+num1=num2;
+num2=soma;
+printf("%d ,",soma);
+}
+return 0;
+
+desafio:O num2 ta vindo como soma(recebe 20(1) e 30(2) e manda 50 como num2 na impressão), suspeito que seja por conta da ordem em que coloquei as operações

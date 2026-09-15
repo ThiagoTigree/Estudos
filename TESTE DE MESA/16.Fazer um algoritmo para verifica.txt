@@ -1,0 +1,8 @@
+16.Fazer um algoritmo para verificar se um número lido é primo ou não. Número primo é aquele
+que é divisível por 1 e por ele mesmo.
+
+entrada com o numero
+
+verificar os divisores através de uma repetição for(int i=1;i<=num;i++) aonde:  num / i ; após isso verificar se ele somente  eh dividido por 1 e por ele mesmo
+entao ---> numero primo -> se não : não primo
+ 

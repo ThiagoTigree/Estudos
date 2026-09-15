@@ -1,0 +1,11 @@
+B)algoritmo em C para achar um numero perfeito
+
+* numero perfeito = um numero que se somar todos seus divisores ele resultara no numero
+
+* identificar os divisores -> somar os divisores -> se for = numero --> numero perfeito
+
+* usar repetidores (int i=1;i<=num / 2;i++)... e dividir por eles incrementando
+
+* apos pegar a somadosdivisores if(somadosdivisores = numero) --> numero perfeito -> se nao, nao perfeito.
+
+desafio : identificar todos os divisores
