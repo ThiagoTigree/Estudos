@@ -1,0 +1,7 @@
+Escreva um programa em C que conte e imprima o número total de números pares e o número total de números ímpares armazenados em um vetor de inteiros.
+
+*colocar um repetidor pra receber os numeros dentro do vetor
+
+**colocar uma condicional para toda vez q for par ou impar ele incrementar contI ou contP
+
+***exibir a quantidade de impares e de pares
