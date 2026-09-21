@@ -1,0 +1,9 @@
+Escreva um programa em C para declarar dois vetores, A e B, e copiar cada elemento do vetor A para a posição correspondente no vetor B.
+
+*primeiro definir tamanho e elementos do vetor A
+
+**apos isso tentar igualar os dois por meio de :
+
+vetorA[i] = vetorB[i]		//sem certeza de sucesso!!!! 
+
+DEU CERTO!
