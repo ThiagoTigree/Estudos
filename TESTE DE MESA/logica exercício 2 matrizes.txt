@@ -1,0 +1,16 @@
+logica exercício 2 matrizes	
+
+//Escreva um programa em C que calcule e imprima a soma total e a média aritmética de todos os elementos numéricos presentes em um determinado vetor.
+    //quer que o vetor contenha 5 espaços  e que sejam 10,20,30,40,50
+
+*declarar a matriz e mais seu vetor, que a questão pede que seja 5
+	numero[5]
+
+for(int i=0;i<5;i++)
+{
+printf (numero %d : ",i + 1);
+scanf("%d" ,&numero[i]);
+
+soma += numero[i];
+media = soma / 5;
+}

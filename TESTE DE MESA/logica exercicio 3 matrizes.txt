@@ -1,0 +1,6 @@
+3.Escreva um programa em C que determine e imprima o maior (máximo) e o menor (mínimo) valor entre todos os elementos de um determinado vetor.
+
+*pegar vários valores dentro do vetor(aleatórios) e definir o maior e menor deles
+
+**posso fazer isso igualando todos eles a uma variável maior, e depos outras condicionais para atualizar o valor(se > então = maior ; se < então = menor)
+
