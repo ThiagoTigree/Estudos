@@ -1,0 +1,16 @@
+Escreva um programa em C que receba do usuário um elemento e a posição desejada e insira esse elemento na posição especificada de um vetor, deslocando os elementos existentes conforme necessário.
+
+*mesma coisa do primeiro, porem com apenas uma diferenca;
+
+**quando ele for selecionar o espaco em que quer inserir o novo elemento, colcar aquele espaço como se fosse o vetor[espacoescolhido] na memoria
+
+***ele quer que adicionemos tambem um lugar novo no lugar desse elemento novo na matriz
+
+(IDEIA POSSIVEL) --> adicionar uma posicao onde ela receberdia um valor(ex:4) e entraria como vetor[posicao](vetor[4]) --> para isso teriamos que expandir o tamanho do vetor e defiinir todos os termos depois de posicao como vetor[i + 1]
+
+#declara uma quantidade e no for coloca (quantidade + 1) e na hora de declarar coloco posição - 1 e deixa o resto como n + posição - 1 (por conta do index)
+
+n=5
+
+####desgraça de código difícil pra que eu vou dificultar essa buceta era pra ter feito so oq ele pediu e eh isso acabou com meus tokens cerebrais
+

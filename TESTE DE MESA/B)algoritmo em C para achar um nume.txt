@@ -9,3 +9,7 @@ B)algoritmo em C para achar um numero perfeito
 * apos pegar a somadosdivisores if(somadosdivisores = numero) --> numero perfeito -> se nao, nao perfeito.
 
 desafio : identificar todos os divisores
+
+i=1,2,3;
+numero=6,6,6;
+somadiv=1,3,6;

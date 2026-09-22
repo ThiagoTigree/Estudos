@@ -4,5 +4,20 @@ que é divisível por 1 e por ele mesmo.
 entrada com o numero
 
 verificar os divisores através de uma repetição for(int i=1;i<=num;i++) aonde:  num / i ; após isso verificar se ele somente  eh dividido por 1 e por ele mesmo
+
 entao ---> numero primo -> se não : não primo
+
+int i=1;i<=numero;i++
+{
+if(numero % i == 0
+{
+cont++;
+	}
+}
+
+
+if(cont == 2)
+{printf(" O numero eh primo!!!");}
+else
+{printf("numero não primo !!!);}
  

@@ -1,0 +1,5 @@
+Escreva um programa em C para inverter a ordem dos elementos em um vetor sem usar um segundo vetor auxiliar. A inversão deve ser realizada diretamente no vetor original (in-place).
+
+*pegar tamanho do vetor
+
+**inverter a ordem da matriz --> usar outra repeticao que decrementa ao inves de incrementar

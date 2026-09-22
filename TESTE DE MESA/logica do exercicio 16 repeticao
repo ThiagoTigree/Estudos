@@ -1,0 +1,3 @@
+a logica por tras desse exercicio eh saber se um numero eh primo ou nao, sabemos que pra um numero ser primo ele so pode ser divido por 1 e ele mesmo
+
+**colocar uma fatoração do numero em um repetidor e fazer um contador que divide o numero por i e toda vez q o contador for = 2(1 e ele mesmo) o numero sera primo!

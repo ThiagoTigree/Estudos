@@ -1,0 +1,14 @@
+17.Fazer um algoritmo para verificar se um número lido é número perfeito. Número perfeito é
+aquele que é igual a soma dos seus divisores. Por exemplo: 6 = 1 + 2 + 3
+
+*pegar seus divisores por meio de uma fatoração dentro de um laço de repetição e após isso somar seus divisores, caso de os divisores forem igual ao numero, eh um numero perfeito
+
+for (int i=1;i<=numero/2;i++)
+{
+	if ( numero % i == 0)
+	{
+	soma += i;
+	}
+}
+
+	
