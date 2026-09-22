@@ -1,0 +1,38 @@
+anotação de 22 / 09 / 2026
+ 
+#escopo
+I - local -> no bloco de codigo!
+II - global -> no codigo inteiro
+III - local static -> apenas na função!!!!
+
+#Parâmetros e Argumentos
+
+I - Parâmetros são na hora de declarar/criar a váriavel
+fatorial(int a) --> vai levar a formula e aceita um argumento dentro
+
+II - Argumentos são na hora de invocar aquela função
+fatorial(5) --> vai pegar a fatorial do número sim, que entrou como argumento ao invocar a função
+
+III - Passagem de parâmetros por valor e por referência
+
+1 - Valor --> Passa o valor da variável, comum em C
+
+2 - Referencia --> Passa o endereço da variável!
+
+#Prototipagem da função
+
+I - serve pra indicar ao compilador que aquela função existe sim e está em algum lugar do código, apenas isso, deixa o código mais limpo e permite o main ficar no topo, sem que as outras funções o empurrem para baixo!
+
+#Introdução a Ponteiros (somente daqui a um tempo)
+
+I - incremento de ponteiros (*) e utilização de & nos argumentos (treinar ambas!)
+
+EX: 
+
+main.c (coordena o programa \ codigo!!!!)
+
+calculos.h (Declara contratos \ Prototipos sao contratos!!!)
+
+calculos.c (Implementa funções dentro do nosso codigo \ tipo de auxiliar da função main(principal))
+
+
