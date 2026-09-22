@@ -1,0 +1,9 @@
+Escreva um programa em C que receba uma posição do usuário e remova o elemento nessa posição de um vetor, deslocando os elementos subsequentes para preencher o espaço vazio.
+
+*indicar tamanho e receber os elementos dessa matriz
+
+**apos isso dar a opcao de retirar um ou nao
+
+***igualar o indice escolhido ao indice anterior e imprimir somente 5 elementos
+
+#fazer tudo ultilizando modulos
