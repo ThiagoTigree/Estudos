@@ -1,0 +1,9 @@
+Escreva um programa em C para identificar e imprimir o segundo maior e o segundo menor elemento único em um vetor dado.
+
+*pegar o vetor e elementos
+
+**colocar a estrutura pra pegar maior e menor, porem vai ter um maior2 que vai pegar os antigos valores do maior e o menor 2 que vai pegar os antigos valores do menor
+
+#usar modularização
+
+##entrada(entra n) ; processamento(pegar elementos do vetor) ; maiormenor ( pegar o maior 2 e menor 2 dos elementso) ; saida ( imprimir elementos da matriz e o maior 2 e menor2)
