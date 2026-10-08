@@ -1,0 +1,17 @@
+5. Construa uma função que, a partir de um vetor de 100 inteiros, possibilite:
+• a digitação dos valores no vetor;
+• imprimir o valor do somatório de seus itens;
+• imprimir a média dos valores fornecidos;
+• substituir por zero todos os valores negativos;
+• substituir por zero todos os valores repetidos (maiores que zero);
+• Criar um menu para acessar os itens anteriores.
+
+*digitação dos valores eh fácil, apenas preciso de um laço que vá até 100,o valor do somatório pode vir junto com o laço ao definir uma variável que receba soma += vetor[i] , media a mesma coisa, apenas ultilzando um media = soma / 100 e return media;
+
+**substituir os valores negativos por zero pode ser feito com uma condicional dentro de uma repetição, transformando todos os numeros menores que 0 em 0, ja os numeros repetidos posso fazer uma condicional assim
+if(vetor[i] == vetor[i])
+{vetor[i] = 0;}
+
+***Menu para acessar eh facil, so preciso de uma funcao para imprimir na tela de acordo com a escolha -> apenas exibir as variáveis de soma e media, e colocar um fator de parado, como por exemplo um 0 ou -1 para que o laço while pare e finalize o programa
+
+------->demorou muito mais doq eu achei q demoraria, que chatisse ein ---> estudar alocação de memória dinâmica com a biblioteca stdlib.h
