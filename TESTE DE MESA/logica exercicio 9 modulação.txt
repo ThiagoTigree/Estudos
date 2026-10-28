@@ -1,0 +1,7 @@
+9. Construa uma função que verifique, sem utilizar a função mod, se um número é divisível por outro.
+
+*um numero vai ser divisível por outro se o resto da divisão for 0
+
+**tenho que pensar numa maneira de abstrair isso no código sem utilizar modulo
+
+***eu divido e pego o resultado em uma variável, se a variável do resultado vezes o numero que dividiu der o numero dividido, então o numero eh divisível

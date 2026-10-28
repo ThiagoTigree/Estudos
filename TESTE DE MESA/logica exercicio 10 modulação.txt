@@ -1,0 +1,10 @@
+10. Escreva uma função que calcule o mdc de dois números fornecidos pelo usuário.
+
+*mdc = máximo divisor comum
+
+**pra fazer ele eu tenho q utilizar uma formula secreta do hamburguer de siri 
+
+while(b!=0){
+resto = a % b
+a = b
+b = resto
