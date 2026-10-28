@@ -1,0 +1,5 @@
+8. Elabore uma função que escreva por extenso um número inteiro com até dez dígitos fornecido pelo
+usuário.
+
+*posso fazer um vetor de 10 espaços, aonde cade espaço seria uma casa numerica, e ai fazia uma unica vez as regras, por exemplo , switch( vetor[1] ) case 1: dez case 2: 20 ...
+e depois eu apenas reultilizaria em todo o resto do codigo de maneira q so se fizesse necessario ajustes
