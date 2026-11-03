@@ -1,0 +1,9 @@
+//12. Dada uma data abreviada, escreva-a por extenso.
+
+*usar um vetor de dias,meses e ano
+
+**pra dias vou ter que escrever ate o 19, apos isso eh 20 e 30 apenas, e ai so uso um "e" e o numero de uma casa ; para os meses vou ter q escrever os 12, talvez possa utilizar o mesmo vetor de dias, porém não é ideal
+
+**ano eu posso fazer pegando casa do mil,cem,dezena(execessao 11 a 19) e unidade
+
+***terminei, seria melhor ter uma função apenas para exibir os números em extenso, mas não vou fzer pq to com preguica e vou deixar nas funções de leitura mesmo

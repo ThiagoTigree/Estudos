@@ -1,0 +1,10 @@
+13. Faça a leitura de mil números pelo processo de sorteio automático. Os números devem estar entre 0 e
+100. Verifique:
+• qual foi o número sorteado mais vezes;
+• qual foi o número sorteado menos vezes;
+• qual foi o maior número;
+• qual foi o menor número;
+
+*usar um laco com a função rand e srand dentro
+
+**tudo por agua a baixo:/
