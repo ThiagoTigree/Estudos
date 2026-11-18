@@ -1,0 +1,29 @@
+1. Raio-X de uma frase
+Leia uma frase com fgets e mostre quantas letras (vogais e consoantes), dígitos e espaços ela tem. Use uma função void raio_x(const char s[], int cont[]) que preenche um vetor de contadores.
+
+primeiro passo -> estrutura
+
+funcao pra pegar vogais, consoantes podemos fazer (strlen() - vogais) , digitos teriamos que usar isdigit da biblioteca ctype
+e espaços , que vão se liberados por um contador que só vai ser aumentado quando uma condicional for atingida if(s[i] == " ");
+
+em relação ao vetor de contadores , vamos inicializar um vetor com todos os elementos em 0, e usar os espaços como contadores ; Ex: vetor[0] = contador de letras ;
+vetor[1] = contador de vogais e assim por diante
+
+na chamada:
+
+int main()
+{
+    //declara string(vetor de char)
+    // declara o vetor que segurara contadores
+
+    //pegar a frase
+
+    //função pra substituir o \n pelo \0
+
+    //funcao pra ler o bixo todinho
+
+    //exibir contadores
+
+    //digitos e espacos
+    return 0;
+}
