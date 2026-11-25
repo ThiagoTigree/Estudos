@@ -1,0 +1,11 @@
+1-colocar %d no printf ao ler um char mostra o valor dele na tabela ASCII
+
+2-enquanto "A" eh uma string, 'A' eh apenas um caractere sozinho
+
+3- em "mno", a string possui os caracteres 'm' 'n' 'o' , ja no outro somente 'm' e apos uma quebra de linha(\n) o 'o', ja em MNOP e MN0P so muda que no lugar do caractere 'O' tem um numerico '0'
+
+4-Enquanto a primeira string termina apos o N por conta do \0, na segunda ela percorre tudo ate dps do P, onde vem o \0 que fica invisivel no final de toda string
+
+5-feito
+
+6-
